@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century; 
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(book.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+
+}
+.navigation ul{
+    float: right;
+    text-align: left;
+    list-style: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 40px;
+    font-size: 16px;
+
+}
+
+.navigation ul li {
+     display: inline-block;
+     color: blueviolet;
+     font-size: 18px;
+     padding-bottom: 5px;
+     border-bottom:2px solid transparent;
+     transition: all .6s;
+    
+}
+
+.navigation ul li a{
+   text-decoration: none;
+   color: #ffffff;
+   padding: 5px 20px;
+   border: 1px solid transparent;
+   transition: 1.5 ease;
+   
+}
+.navigation ul li:hover{
+    border-bottom: 2px solid #e33bc9;
+    background: linear-gradient(to right, #d643b4 0% #ffbef0 100% );
+
+}
+ul li.active a{
+    background-color: #e1afd5;
+    border-radius: 10% 100% 100% 10% ;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+   height: auto; 
+}
+
+.title{
+    position: absolute;
+    top: 46%;
+    left: 41%; 
+    transform: translate(-50,-50%);   
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 59%;
+    left: 32%; 
+    transform: translate(-50,-50%);  
+}
+
+.btn{
+    border: 1px solid #d643b4;
+    padding: 5px 20px;
+    color: #ffffff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #f594db;
+    color: #ffffff;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position:0;
+    background: #d643b4;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 165, 237);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu ul{
+    text-align: center;
+    display: show;
+    margin: 6px;
+}
+.main ul li:hover .sub-menu ul li a{
+    text-align: center;
+}
+.palavraComposta{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
